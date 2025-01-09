@@ -29,8 +29,8 @@ export default function Home() {
                         <div className="line"></div>
                         <p className="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien lectus sit tristique rhoncus, nisi, malesuada. Tellus consequat</p>
                         <div className="btn-group">
-                            <Link to="" className="btn type-1">Get started</Link>
-                            <Link to="" className="btn type-2">Free Trial</Link>
+                            <Link to="/login" className="btn type-1">Get started</Link>
+                            <Link to="/login" className="btn type-2">Free Trial</Link>
                         </div>
                     </div>
                     <div className="t">
@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="card-item"><img src={ com6 } alt="company-logo" /></div>
                 <div className="card-item"><img src={ com7 } alt="company-logo" /></div>
             </div>
-            <div className="bt">
+            <div id="about" className="bt">
                 <div className="t">
                     <img src={ img2 } alt="img-1" />
                 </div>
@@ -78,7 +78,7 @@ export default function Home() {
                     <p className="h1-text">Awards Won</p>
                 </div>
             </div>
-            <div className="pink-zone">
+            <div className="pink-zone" id="pric">
                 <div className="flex-box">
                     <div className="flexb-1 flexb">
                         <p className="head orange">YOUR VISION, OUR FUTURE</p>
@@ -116,7 +116,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="test">
+            <div className="test" id="test">
                 <h1 className="big tac black">User's Review</h1>
                 <p className="med tac black">Collaborate over projects with your team and clients optimised <br /> for mobile and tablet don't let slow</p>
                 <p className="med black mt100">What people say about us ?</p>

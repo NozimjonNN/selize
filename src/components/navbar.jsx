@@ -10,10 +10,10 @@ export default function Navbar() {
             <img src={ logo } alt="logo" className="logo" />
             <ul>
                 <li><Link className='nav-link' to="">Home</Link></li>
-                <li><a className='nav-link' href="">About</a></li>
-                <li><a className='nav-link' href="">Contact</a></li>
-                <li><a className='nav-link' href="">Testimonal</a></li>
-                <li><a className='nav-link' href="">Priceing</a></li>
+                <li><a className='nav-link' href="#about">About</a></li>
+                <li><Link className='nav-link' to="/reg">Contact</Link></li>
+                <li><a className='nav-link' href="#test">Testimonal</a></li>
+                <li><a className='nav-link' href="#pric">Priceing</a></li>
             </ul>
             <Link to="/login" className="btn type-1">Get Started</Link>
         </nav>
